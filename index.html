@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- <nav class="navbar header-nav fixed-top">
+    <ul class="navbar-nav px-3 ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Sign out</a>
+      </li>
+    </ul>
+  </nav> -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link d-flex " href="#">
+                <span class="material-icons">
+                  apps
+                </span> <span>
+                  Dashboard
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="#">
+                <span class="material-icons">
+                  today
+                </span>
+                <span>Appointment</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="#">
+                <span class="material-icons">
+                  people
+                </span>
+                <span>Patients</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="#">
+                <span class="material-icons">
+                  description
+                </span>
+                <span> Prescriptions</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="#">
+                <span class="material-icons">
+                  settings
+                </span>
+                <span>Settings</span>
+              </a>
+            </li>
+          </ul>
+         <div class="logout-aria">
+          <p class="logout-btn d-flex"> <span class="material-icons">
+            trending_flat
+            </span> Log Out</p>
+         </div>
+        </div>
+       
+      </nav>
+
+      <!-- dashboard main content -->
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-content-wrapper">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+          <h1 class="h2">Dashboard</h1>
+        </div>
+
+        <!-- dashboard top contents -->
+        <div class="row d-flex  text-white">
+          <div class="col-md-3 mb-3 ">
+            <div class="d-flex bg-danger py-4 rounded pending-appointment  align-items-center">
+              <h6 class="w-50 text-right pr-2 text-right pr-2">09</h6>
+              <p>Pending <br> Appointment </p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 ">
+            <div class="d-flex today-appointment py-4 rounded align-items-center">
+              <h6 class="w-50 text-right pr-2">09</h6>
+              <p>Today's <br> Appointment </p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 ">
+            <div class="d-flex total-appointment py-4 rounded align-items-center">
+              <h6 class="w-50 text-right pr-2">09</h6>
+              <p>Total <br> Appointment </p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 ">
+            <div class="d-flex total-patients py-4 rounded align-items-center">
+              <h6 class="w-50 text-right pr-2">09</h6>
+              <p>Total <br> Patients </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent appointments area -->
+        <div class="recent-appointments-container mt-4 p-4 bg-white">
+          <div class="d-flex justify-content-between">
+            <div class="p-2">
+              <h2>Recent Appointments</h2>
+            </div>
+            <div class="p-2">
+              <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+              </button></div>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Lorem</td>
+                  <td>ipsum</td>
+                  <td>dolor</td>
+                  <td>sit</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                  <td>adipiscing</td>
+                  <td>elit</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                  <td>odio</td>
+                  <td>Praesent</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>libero</td>
+                  <td>Sed</td>
+                  <td>cursus</td>
+                  <td>ante</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>dapibus</td>
+                  <td>diam</td>
+                  <td>Sed</td>
+                  <td>nisi</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Nulla</td>
+                  <td>quis</td>
+                  <td>sem</td>
+                  <td>at</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>nibh</td>
+                  <td>elementum</td>
+                  <td>imperdiet</td>
+                  <td>Duis</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
